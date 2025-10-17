@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziryss' Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <article data-testid="test-profile-card">
+
+            <figure>
+                <img 
+                    data-testid="test-user-avatar"
+                    src="./profile.jpg"
+                    alt="Picture of Timilehin"
+                >
+            </figure>
+
+            <div class="user-info">
+                <h2 data-testid="test-user-name">Aderibigbe Oluwatimilehin</h2>
+
+                <p data-testid="test-user-bio">
+                    Ziryss || Frontend Developer || Petroleum & Gas Engr. <br> 
+                    Crafting functional and beautiful interfaces a pixel at a time <br> Perfection lies in simplicity
+                </p>
+
+                <p>
+                    Current Time (ms): <span data-testid="test-user-time"></span>
+                </p>
+
+                <ul data-testid="test-user-social-links">
+
+                    <li>
+                        <a
+                            href="https://github.com/timi-aderibigbe"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-github">
+                            GitHub
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://www.x.com/timitwts/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-x">
+                            X
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <section class="user-details">
+                <h3>My Hobbies</h3>
+                <ul data-testid="test-user-hobbies"> 
+                    <li>Vibe Coding</li>
+                    <li>Gaming</li>
+                    <li>Photography & Visual Storytelling</li>
+                    <li>Reading comics</li>
+                </ul>
+            </section>
+
+            <section class="user-details">
+                <h3>My Dislikes</h3>
+                <ul data-testid="test-user-dislikes">
+                    <li>Bugs</li>
+                    <li>Designs without intent</li>
+                    <li>Unindented Codes</li>
+                </ul>
+            </section>
+
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
