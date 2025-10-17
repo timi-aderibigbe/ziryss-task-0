@@ -21,7 +21,7 @@
     • Avatar image with descriptive alt text 
     • Social links open safely in a new tab with rel="noopener noreferrer" 
 
-#Folder Structure 
+# Folder Structure 
     project-folder/ 
     │ 
     ├── index.html 
