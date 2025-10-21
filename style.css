@@ -82,6 +82,12 @@ section.user-details li {
     font-size: 0.9rem;
 }
 
+section.user-nav {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
 /* --- Social media Styling --- */
 ul[data-testid="test-user-social-links"] a {
     text-decoration: none;
@@ -137,4 +143,82 @@ a:focus {
     ul {
         justify-content: flex-start;
     }
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+/* about */
+
+.about section {
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+}
+
+.about h2,
+.about h3 {
+  color: #1c1e21;
+  margin-bottom: 0.75rem;
+}
+
+.about p {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.about {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* contact section */
+.contact {
+    max-width: 800px;
+    width: 100%;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.error {
+    color: red;
+}
+
+  button {
+    background: #1c1e21;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+  button:hover {
+    background: #616872;
 }
